@@ -26,7 +26,7 @@ const RestaurantHomePage = () => {
   useEffect(() => {
     const fetchRestaurant = async () => {
       try {
-        const res = await axios.get(`/api/restaurants/id/${id}`);
+        const res = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/api/restaurants/id/${id}`);
         setRestaurant(res.data);
       } catch (error) {
         console.error("Error fetching restaurant:", error);
@@ -40,7 +40,7 @@ const RestaurantHomePage = () => {
   useEffect(() => {
     const fetchMenu = async () => {
       try {
-        const res = await axios.get(`/api/menu?restaurantId=${id}`);
+        const res = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/api/menu?restaurantId=${id}`);
         setMenuItems(res.data);
       } catch (error) {
         console.error("Error fetching menu items:", error);
@@ -78,7 +78,7 @@ const RestaurantHomePage = () => {
 
       console.log("Reservation Payload:", reservationPayload);  // Log the payload
 
-      await axios.post(`/api/reservation`, reservationPayload, {
+      await axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/reservation`, reservationPayload, {
         headers: {
           Authorization: `Bearer ${token}`, // Send the token in headers
         },

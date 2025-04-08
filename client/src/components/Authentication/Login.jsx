@@ -21,7 +21,7 @@ const Login = () => {
 
     if (Object.keys(validationErrors).length === 0) {
       try {
-        const response = await axios.post('/api/auth/customer-login', { email, password });
+        const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/auth/customer-login`, { email, password });
 
         // Save token to localStorage
         localStorage.setItem("token", response.data.token);
