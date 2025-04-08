@@ -5,7 +5,7 @@ import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";  
 import "../../assets/css/AdminCSS/Statistics.css";
 import logo from "../../assets/images/Forkify_Logo.png";
-import Sidebar from "../Admin/Sidebar";  
+import Sidebar from "./Sidebar";  
 import { FiMenu } from "react-icons/fi";  
 import Footer from "./Footer";
 

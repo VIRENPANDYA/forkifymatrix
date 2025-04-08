@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../../assets/css/AdminCSS/reservationadmin.css";
-import Sidebar from "../Admin/Sidebar";
-import Footer from "../Admin/Footer";
+import Sidebar from "./Sidebar";
+import Footer from "./Footer";
 import logo from "../../assets/images/Forkify_Logo.png";
 import axios from "axios";
 import { FiMenu } from "react-icons/fi";

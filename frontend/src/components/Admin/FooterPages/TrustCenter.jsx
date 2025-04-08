@@ -1,8 +1,8 @@
-// /src/pages/Admin/FooterPages/Partnerships.jsx
+// /src/pages/Admin/FooterPages/Trust Center.jsx
 
 import React from "react";
-import Sidebar from "../../Admin/Sidebar";
-import Footer from "../../Admin/Footer";
+import Sidebar from "../Sidebar";
+import Footer from "../Footer";
 import logo from "../../../assets/images/Forkify_Logo.png";
 import { FiMenu } from "react-icons/fi";
 import "../../../assets/css/AdminCSS/sharedfooterpages.css";
@@ -22,12 +22,12 @@ const AboutUs = () => {
           <img src={logo} alt="Forkify Logo" className="logo-img" />
           <h1 className="logo-text">Forkify Admin</h1>
         </div>
-        <h1 className="page-title">Partnerships</h1>
+        <h1 className="page-title">Trust Center</h1>
       </div>
 
       <div className="main-content">
         <div className="page-section">
-          <h2>Interested in partnering with Forkify? Whether you're a vendor, platform, or service, we'd love to collaborate.</h2>
+          <h2>Your data security and trust matter to us. Here's how we safeguard it.</h2>
           <p>
             ForkiFy is a powerful restaurant management platform built to streamline operations,
             simplify reservations, and offer insights for better decision-making.

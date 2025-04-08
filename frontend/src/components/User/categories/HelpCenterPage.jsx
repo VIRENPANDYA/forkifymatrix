@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../../User/UserFooter";
+import Footer from "../UserFooter";
 import logo from "../../../assets/images/Forkify_Logo.png"; 
 import "../../../assets/css/UserCSS/PageStyles.css";
 

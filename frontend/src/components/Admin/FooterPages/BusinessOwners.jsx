@@ -1,8 +1,8 @@
-// /src/pages/Admin/FooterPages/Terms & Conditions.jsx
+// /src/pages/Admin/FooterPages/BusinessOwners.jsx
 
 import React from "react";
-import Sidebar from "../../Admin/Sidebar";
-import Footer from "../../Admin/Footer";
+import Sidebar from "../Sidebar";
+import Footer from "../Footer";
 import logo from "../../../assets/images/Forkify_Logo.png";
 import { FiMenu } from "react-icons/fi";
 import "../../../assets/css/AdminCSS/sharedfooterpages.css";
@@ -22,12 +22,12 @@ const AboutUs = () => {
           <img src={logo} alt="Forkify Logo" className="logo-img" />
           <h1 className="logo-text">Forkify Admin</h1>
         </div>
-        <h1 className="page-title">Terms & Conditions</h1>
+        <h1 className="page-title">For Business Owners</h1>
       </div>
 
       <div className="main-content">
         <div className="page-section">
-          <h2>Please read our platform usage terms. By using Forkify, you agree to the policies listed here.</h2>
+          <h2>Learn how Forkify helps restaurant owners reduce stress and boost profitability.</h2>
           <p>
             ForkiFy is a powerful restaurant management platform built to streamline operations,
             simplify reservations, and offer insights for better decision-making.

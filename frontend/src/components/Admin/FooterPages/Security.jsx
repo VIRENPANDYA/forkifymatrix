@@ -1,8 +1,8 @@
-// /src/pages/Admin/FooterPages/Career.jsx
+// /src/pages/Admin/FooterPages/Security Practices.jsx
 
 import React from "react";
-import Sidebar from "../../Admin/Sidebar";
-import Footer from "../../Admin/Footer";
+import Sidebar from "../Sidebar";
+import Footer from "../Footer";
 import logo from "../../../assets/images/Forkify_Logo.png";
 import { FiMenu } from "react-icons/fi";
 import "../../../assets/css/AdminCSS/sharedfooterpages.css";
@@ -22,12 +22,12 @@ const AboutUs = () => {
           <img src={logo} alt="Forkify Logo" className="logo-img" />
           <h1 className="logo-text">Forkify Admin</h1>
         </div>
-        <h1 className="page-title">Career</h1>
+        <h1 className="page-title">Security Practices</h1>
       </div>
 
       <div className="main-content">
         <div className="page-section">
-          <h2>We're hiring! Join Forkify and be part of the future of restaurant tech.</h2>
+          <h2>We follow the latest best practices in data protection, access control, and infrastructure security.</h2>
           <p>
             ForkiFy is a powerful restaurant management platform built to streamline operations,
             simplify reservations, and offer insights for better decision-making.

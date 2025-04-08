@@ -13,11 +13,11 @@ import ManagerSignIn from "./components/Authentication/ManagerSignIn";
 import OwnerSignIn from "./components/Authentication/OwnerSignIn";
 
 //Owner Paths
-import OwnerHome from "../src/components/Owner/OwnerHome";
-import OwnerReports from "../src/components/Owner/OwnerReports";
-import OwnerPerformance from "../src/components/Owner/OwnerPerformance";
-import OwnerSettings from "../src/components/Owner/OwnerSettings";
-import OwnerSupport from "../src/components/Owner/OwnerSupport";
+import OwnerHome from "./components/Owner/OwnerHome";
+import OwnerReports from "./components/Owner/OwnerReports";
+import OwnerPerformance from "./components/Owner/OwnerPerformance";
+import OwnerSettings from "./components/Owner/OwnerSettings";
+import OwnerSupport from "./components/Owner/OwnerSupport";
 import AddRestaurant from "./components/Owner/AddRestaurant";
 import OwnerRegister from "./components/Authentication/OwnerRegister";
 

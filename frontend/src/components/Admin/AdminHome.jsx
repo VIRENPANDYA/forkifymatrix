@@ -3,8 +3,8 @@ import "../../assets/css/AdminCSS/AdminHome.css";
 import { Link, useNavigate } from "react-router-dom";
 import logo from "../../assets/images/Forkify_Logo.png";
 import axios from "axios";
-import Sidebar from "../Admin/Sidebar";
-import Footer from "../Admin/Footer";
+import Sidebar from "./Sidebar";
+import Footer from "./Footer";
 import { FiMenu } from "react-icons/fi";
 
 // Import Feature Card Images

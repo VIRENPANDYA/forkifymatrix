@@ -1,9 +1,9 @@
 import React from "react";
-import Footer from "../../User/UserFooter";
+import Footer from "../UserFooter";
 import logo from "../../../assets/images/Forkify_Logo.png"; 
 import "../../../assets/css/UserCSS/PageStyles.css";
 
-const BestRestaurants = () => {
+const Cafes = () => {
   return (
     <div>
       <header className="user-topbar">
@@ -12,9 +12,9 @@ const BestRestaurants = () => {
           <h2>ForkiFy</h2>
         </div>
       </header>
-      <h1 className="title">Best Restaurants</h1>
+      <h1 className="title">Cafes</h1>
       <section className="page-content">
-        <p>Explore the top-rated restaurants in your area, offering the best dining experiences. From exquisite cuisine to elegant dining spaces, we’ve got you covered.</p>
+        <p>Discover the best cafes around you for a perfect coffee/snack break. Whether you need a quick espresso or a peaceful place to relax, find the best options here.</p>
         <button onClick={() => window.location.href='/UserHome'}>Go to Restaurant Home</button>
       </section>
 
@@ -23,4 +23,4 @@ const BestRestaurants = () => {
   );
 };
 
-export default BestRestaurants;
+export default Cafes;

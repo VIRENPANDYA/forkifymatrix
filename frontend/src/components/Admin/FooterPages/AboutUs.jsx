@@ -1,11 +1,11 @@
-// /src/pages/Admin/FooterPages/Trust Center.jsx
+// /src/pages/Admin/FooterPages/AboutUs.jsx
 
 import React from "react";
-import Sidebar from "../../Admin/Sidebar";
-import Footer from "../../Admin/Footer";
+import Sidebar from "../Sidebar";
+import Footer from "../Footer";
 import logo from "../../../assets/images/Forkify_Logo.png";
 import { FiMenu } from "react-icons/fi";
-import "../../../assets/css/AdminCSS/sharedfooterpages.css";
+import "../../../assets/css/AdminCSS/sharedfooterpages.css"; // You can create this file for layout consistency
 
 const AboutUs = () => {
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
@@ -22,12 +22,12 @@ const AboutUs = () => {
           <img src={logo} alt="Forkify Logo" className="logo-img" />
           <h1 className="logo-text">Forkify Admin</h1>
         </div>
-        <h1 className="page-title">Trust Center</h1>
+        <h1 className="page-title">About Us</h1>
       </div>
 
       <div className="main-content">
         <div className="page-section">
-          <h2>Your data security and trust matter to us. Here's how we safeguard it.</h2>
+          <h2>Who We Are</h2>
           <p>
             ForkiFy is a powerful restaurant management platform built to streamline operations,
             simplify reservations, and offer insights for better decision-making.

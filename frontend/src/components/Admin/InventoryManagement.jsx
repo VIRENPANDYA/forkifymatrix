@@ -3,8 +3,8 @@ import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import "../../assets/css/AdminCSS/Inventory.css";
 import logo from "../../assets/images/Forkify_Logo.png";
-import Sidebar from "../Admin/Sidebar";
-import Footer from "../Admin/Footer";
+import Sidebar from "./Sidebar";
+import Footer from "./Footer";
 import { FiMenu } from "react-icons/fi";
 
 const InventoryManagement = () => {
