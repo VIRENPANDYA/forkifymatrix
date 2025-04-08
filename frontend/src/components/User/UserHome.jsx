@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import "../../assets/css/UserCSS/UserHome.css";
+import "../../assets/css/UserCSS/userhome.css";
 import logo from "../../assets/images/Forkify_Logo.png";
 import Footer from "./UserFooter";
 import axios from "axios";
